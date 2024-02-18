@@ -1,0 +1,108 @@
+body {
+    width:80%;
+    font-size: 14px;
+    font-family: helvica;
+    margin: auto;
+}
+nav {
+    background: pink;
+    width: 100%;
+}
+nav ul {
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+nav #menuprincipal {
+    background: palevioletred;
+    font-size: 14px;
+    height: 37px;
+}
+nav #menuprincipal ul li{
+    float: left;
+    list-style: none;
+}
+nav #menuprincipal ul li a{
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+nav #menuprincipal ul li a:hover{
+    font-weight: bold;
+    background: pink;
+    transition: all 1s;
+}
+aside {
+    float: left;
+    width: 24%;
+    margin-top: 10px;
+}
+aside .panel{
+margin: 0px;
+background: pink;
+border: solid 1px #edecec;
+font-family: Arial;
+font-size: 12px;
+width: 100%;
+}
+aside .contenedor{
+    padding: 10px;
+}
+aside .panel .contenedor h1 {
+    background: palevioletred;
+    color: #fff;
+    font-size: 14px;
+    margin: 0px;
+    padding: 10px 15px;
+    text-transform: uppercase;
+}
+aside .panel .contenedor{
+    line-height: 150%;
+}
+section {
+    float: right;
+    width: 73%;
+    margin: 0px;
+    padding: 0px;
+}
+section .articulo{
+    margin: 10px;
+    padding: 10px;
+}
+section .articulo{
+    background: #fff;
+    border: solid plum;
+    font-size: 14px;
+    width: 92%;
+    overflow: hidden;
+    text-align: justify;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+section .articulo img{
+    float: left;
+    margin-right: 20px;
+}
+section .articulo h1{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: plum;
+}
+footer{
+    display: block;
+    background: palevioletred;
+    height: 40px;
+    width: 100%;
+}
+footer{
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+
+}
